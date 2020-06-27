@@ -19,11 +19,11 @@ Installation:
 npm install -g lighthouse
 
 Examples:
-  lighthouse <url> --view                                                   Opens the HTML report in a browser after the run completes
-  lighthouse <url> --config-path=./myconfig.js                              Runs Lighthouse with your own configuration: custom audits, report
+ - lighthouse <url> --view                                                   Opens the HTML report in a browser after the run completes
+ - lighthouse <url> --config-path=./myconfig.js                              Runs Lighthouse with your own configuration: custom audits, report
                                                                             generation, etc.
-  lighthouse <url> --output=json --output-path=./report.json --save-assets  Save trace, devtoolslog, and named JSON report.
-  lighthouse <url> --emulated-form-factor=none                              Disable device emulation and all throttling.
+ - lighthouse <url> --output=json --output-path=./report.json --save-assets  Save trace, devtoolslog, and named JSON report.
+-  lighthouse <url> --emulated-form-factor=none                              Disable device emulation and all throttling.
     --throttling-method=provided
   lighthouse <url> --chrome-flags="--window-size=412,660"                   Launch Chrome with a specific window size
   lighthouse <url> --quiet --chrome-flags="--headless"                      Launch Headless Chrome, turn off logging
