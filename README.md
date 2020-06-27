@@ -18,6 +18,7 @@ Installation:
 
 npm install -g lighthouse
 
+* lighthouse  http://localhost:8080/login  --view
 Examples:
  - lighthouse "url" --view                                                   Opens the HTML report in a browser after the run completes
  - lighthouse "url" --config-path=./myconfig.js                              Runs Lighthouse with your own configuration: custom audits, report
