@@ -7,3 +7,8 @@
 
 - https://chrome.google.com/webstore/detail/performance-scorecard/aefnmfmlbjcdihkegonofhkijbdkcpoc
 - DevTools Chrome Performance
+
+## Lighthouse
+
+There were issues affecting this run of Lighthouse:
+Chrome extensions negatively affected this page's load performance. Try auditing the page in incognito mode or from a Chrome profile without extensions.
